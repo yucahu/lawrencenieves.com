@@ -313,10 +313,9 @@
       ],
       "images": [
         {
-          "file": "images/a-father-is-persevering-01.jpg",
-          "caption": "Title frame, 360°",
-          "width": 1019,
-          "height": 622
+          "youtube": "147twf1QyMg",
+          "caption": "The film",
+          "aspect": "16/9"
         }
       ],
       "tags": [
@@ -324,10 +323,11 @@
         "360° film",
         "Documentary"
       ],
-      "video": {
-        "youtube": "147twf1QyMg",
-        "caption": "The film",
-        "aspect": "16/9"
+      "thumb": {
+        "file": "images/a-father-is-persevering-01.jpg",
+        "caption": "Title frame, 360°",
+        "width": 1019,
+        "height": 622
       }
     },
     {
