@@ -1,0 +1,416 @@
+{
+  "_note": "Edit this file, then run: python build.py  (projects are listed newest first, in this order)",
+  "tag_order": [
+    "Professional work",
+    "Personal work",
+    "Project Manager",
+    "VR",
+    "360° film",
+    "Installation",
+    "Training",
+    "Game",
+    "Documentary",
+    "Operations"
+  ],
+  "projects": [
+    {
+      "slug": "data-catalog",
+      "title": "Data Catalog",
+      "year": "2024–25",
+      "client": "Inspire Brands",
+      "with": "Inspire Brands (Arby’s, Baskin-Robbins, Buffalo Wild Wings, Dunkin’, Jimmy John’s, Sonic)",
+      "type": "Operations and data governance",
+      "role": "Program Manager",
+      "context": "Built for 500+ users · Snowflake, Power BI, SQL, Tableau",
+      "description": "The Data Intelligence Hub gives Inspire Brands one standardized place to find, understand and trust its data, built on Alation for 500+ users across the family of restaurant brands. As program manager, I led the team that built this online portal for Inspire employees, including the connections to Snowflake and Power BI, a process for curating data assets, and the creative assets across the site. I also helped lead the rollout across the company, partnering with Inspire’s corporate communications team on promotional material to spread the word about the platform.",
+      "links": [],
+      "images": [
+        {
+          "file": "images/data-catalog-01.jpg",
+          "caption": "Data Intelligence Hub",
+          "width": 1331,
+          "height": 764
+        },
+        {
+          "file": "images/data-catalog-02.jpg",
+          "caption": "Stakeholder presentation",
+          "width": 1422,
+          "height": 1600
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "Operations"
+      ]
+    },
+    {
+      "slug": "interactive-360-taser-training",
+      "title": "Interactive 360 TASER Training",
+      "year": "2022–24",
+      "client": "Axon",
+      "with": "Axon",
+      "type": "Interactive 360° VR training, built in Unity",
+      "role": "Pitched, funded ($750K), directed, produced",
+      "context": "Deployed to 1,000+ agencies · Filmed in Poland and Los Angeles",
+      "description": "Immersive police training scenarios that put the trainee inside real 360° footage, with interaction layered on in Unity. I saw this project through every stage, from pitch to deployment. Once we secured $750K in funding, I directed and produced a proof of concept that became a product deployed to more than 1,000 agencies. That meant planning each scene from overhead blocking diagrams, directing on set during shoots in Poland and Los Angeles, and running the final tech review and iteration in Unity.",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://youtu.be/P9JDZ1CDa48"
+        }
+      ],
+      "images": [
+        {
+          "file": "images/interactive-360-taser-training-01.jpg",
+          "caption": "Interactive 360 scenario",
+          "width": 1037,
+          "height": 650
+        },
+        {
+          "youtube": "P9JDZ1CDa48",
+          "caption": "Project video",
+          "aspect": "16/9"
+        },
+        {
+          "file": "images/interactive-360-taser-training-03.jpg",
+          "caption": "On set in Los Angeles",
+          "width": 1173,
+          "height": 726
+        },
+        {
+          "file": "images/interactive-360-taser-training-04.jpg",
+          "caption": "Scene blocking plan",
+          "width": 682,
+          "height": 551
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR",
+        "360° film",
+        "Training"
+      ]
+    },
+    {
+      "slug": "simulator-drills",
+      "title": "Simulator Drills",
+      "year": "2022–24",
+      "client": "Axon",
+      "with": "Axon",
+      "type": "VR training modules, built in Unity",
+      "role": "Project Manager",
+      "context": "Hardware constraints · SME feedback",
+      "description": "Realistic TASER and movement modules for VR training. I managed the dev teams building them, balancing hardware constraints against detailed feedback from subject-matter experts.",
+      "links": [],
+      "images": [
+        {
+          "file": "images/simulator-drills-01.jpg",
+          "caption": "Threat drill in headset",
+          "width": 836,
+          "height": 559
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR",
+        "Training"
+      ]
+    },
+    {
+      "slug": "taser-vs-zombies",
+      "title": "TASER vs. Zombies",
+      "year": "2022–24",
+      "client": "Axon",
+      "with": "Axon · teams in the US and Poland",
+      "type": "Unity VR game, reskin of an existing title",
+      "role": "Project Manager, compliance",
+      "context": "Showcase for new TASER hardware",
+      "description": "A fun, interactive reskin of an existing game, built to showcase new TASER hardware. I managed multiple teams across the US and Poland and handled compliance.",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://youtube.com/shorts/Sx_Iulyc2SI?feature=share"
+        }
+      ],
+      "images": [
+        {
+          "youtube": "Sx_Iulyc2SI",
+          "caption": "Gameplay video",
+          "aspect": "9/16"
+        },
+        {
+          "file": "images/taser-vs-zombies-02.jpg",
+          "caption": "Environment, old vs. new (WIP)",
+          "width": 1547,
+          "height": 933
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR",
+        "Game"
+      ],
+      "thumb": {
+        "file": "images/taser-vs-zombies-01.jpg",
+        "caption": "Gameplay",
+        "width": 648,
+        "height": 720
+      }
+    },
+    {
+      "slug": "investigatory-stop-poc",
+      "title": "Investigatory Stop POC",
+      "year": "2020–22",
+      "client": "Foundry 45",
+      "with": "Foundry 45",
+      "type": "Dynamic VR police training, motion capture",
+      "role": "Co-lead, design and mocap",
+      "context": "Contributed to Axon’s acquisition of Foundry 45",
+      "description": "A proof of concept for dynamic VR police training. I co-led design and motion capture; the work later contributed to Axon’s acquisition of the company.",
+      "links": [],
+      "images": [
+        {
+          "file": "images/investigatory-stop-poc-01.jpg",
+          "caption": "Motion capture session",
+          "width": 684,
+          "height": 923
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR",
+        "Training"
+      ]
+    },
+    {
+      "slug": "rheem-interactive-training",
+      "title": "Rheem Interactive Training",
+      "year": "2020–22",
+      "client": "Rheem",
+      "with": "Foundry 45",
+      "type": "Award-winning VR tutorial on hybrid water heaters",
+      "role": "Designer, Project Manager",
+      "context": "Award-winning · Interactive models and time trials",
+      "description": "An award-winning VR tutorial on hybrid water heaters, complete with interactive models and time trials. I designed it and managed the project.",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://youtu.be/BhRcUavXFCM?si=IHIXzgw3UdyNi6SO"
+        }
+      ],
+      "images": [
+        {
+          "youtube": "BhRcUavXFCM",
+          "caption": "Walkthrough video",
+          "aspect": "16/9"
+        }
+      ],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR",
+        "Training"
+      ],
+      "thumb": {
+        "file": "images/rheem-interactive-training-01.jpg",
+        "caption": "Water heater walkthrough",
+        "width": 648,
+        "height": 720
+      }
+    },
+    {
+      "slug": "delta-marshalling-tutorial",
+      "title": "Delta Marshalling Tutorial",
+      "year": "2020–22",
+      "client": "Delta",
+      "with": "Foundry 45",
+      "type": "Interactive VR modules for aircraft marshalling safety",
+      "role": "Feature development",
+      "context": "New features and night mode",
+      "description": "Interactive VR modules that train aircraft marshalling safety for Delta. I enhanced the experience with new features, including a night mode.",
+      "links": [],
+      "images": [],
+      "tags": [
+        "Professional work",
+        "VR",
+        "Training"
+      ]
+    },
+    {
+      "slug": "road-code",
+      "title": "Road Code",
+      "year": "2020–22",
+      "client": "Boys & Girls Clubs",
+      "with": "Foundry 45",
+      "type": "VR kits, distributed nationwide",
+      "role": "Analytics and distribution",
+      "context": "200+ VR kits distributed nationwide",
+      "description": "Road Code put VR kits into Boys & Girls Clubs of America nationwide. I oversaw backend analytics and the distribution of more than 200 kits.",
+      "links": [],
+      "images": [],
+      "tags": [
+        "Professional work",
+        "Project Manager",
+        "VR"
+      ]
+    },
+    {
+      "slug": "ala",
+      "title": "ALA",
+      "year": "2021",
+      "client": "Personal",
+      "with": "Three generations of my family",
+      "type": "Open-world interactive documentary, Unity",
+      "role": "Creator, programmer",
+      "context": "Unity · 3D imaging · Oral history",
+      "description": "An open-world interactive documentary about my grandmother’s life in 1950s Puerto Rico, exploring FBI surveillance, mass sterilization and cultural memory. I programmed the entire experience in Unity, using depth-mapped archival photos and immersive rooms to guide visitors through her world, with original audio recorded between three generations of my family.",
+      "links": [
+        {
+          "label": "Watch the trailer",
+          "url": "https://youtu.be/mX-9zwvDqOU"
+        }
+      ],
+      "images": [
+        {
+          "file": "images/ala-01.jpg",
+          "caption": "Open world",
+          "width": 1019,
+          "height": 613
+        },
+        {
+          "file": "images/ala-02.jpg",
+          "caption": "AI depth-mapped archival photo",
+          "width": 977,
+          "height": 621
+        }
+      ],
+      "tags": [
+        "Personal work",
+        "Documentary",
+        "Installation"
+      ]
+    },
+    {
+      "slug": "a-father-is-persevering",
+      "title": "A Father Is Persevering",
+      "year": "2021",
+      "client": "Collaborative",
+      "with": "Created alongside an incarcerated father",
+      "type": "360° film with TiltBrush animation in Unity",
+      "role": "Co-led interviews, taught 360 filming, Unity",
+      "context": "Advocating an end to mandatory minimums",
+      "description": "A collaborative 360° film created alongside an incarcerated father, advocating for an end to mandatory minimums. I co-led interviews, taught 360 filming and developed ways to animate TiltBrush art inside Unity, putting technical experimentation in service of human connection and justice reform.",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://youtu.be/147twf1QyMg?si=lzbA_n-z-rzl_PCU"
+        }
+      ],
+      "images": [
+        {
+          "file": "images/a-father-is-persevering-01.jpg",
+          "caption": "Title frame, 360°",
+          "width": 1019,
+          "height": 622
+        }
+      ],
+      "tags": [
+        "Personal work",
+        "360° film",
+        "Documentary"
+      ]
+    },
+    {
+      "slug": "len1",
+      "title": "LEN1",
+      "year": "2020",
+      "client": "Personal",
+      "with": "Solo",
+      "type": "AI and VR installation, GPT-2, built in ShapeLab",
+      "role": "Creator",
+      "context": "AI ethics · GPT-2 · Privacy",
+      "description": "A speculative exploration of digital privacy and self-representation. I trained a GPT-2 model on my personal text history, creating an AI “Lawrence” inside a virtual home designed in VR. Visitors could ask it intimate or embarrassing questions while exploring a space built entirely in ShapeLab.",
+      "links": [
+        {
+          "label": "Play on itch.io",
+          "url": "https://yucahu.itch.io/len1"
+        }
+      ],
+      "images": [
+        {
+          "file": "images/len1-01.jpg",
+          "caption": "The virtual home",
+          "width": 1009,
+          "height": 648
+        },
+        {
+          "file": "images/len1-02.jpg",
+          "caption": "GPT-2 fine-tuning",
+          "width": 992,
+          "height": 638
+        }
+      ],
+      "tags": [
+        "Personal work",
+        "VR",
+        "Installation"
+      ]
+    },
+    {
+      "slug": "film-school-simulator",
+      "title": "Film School Simulator",
+      "year": "2019",
+      "client": "Emerson College",
+      "with": "Emerson College film organization",
+      "type": "Google Cardboard interactive film experience",
+      "role": "Led a team of 30+ students",
+      "context": "Google Cardboard",
+      "description": "A Google Cardboard interactive film experience funded by an Emerson College film organization, where I led a team of more than 30 students.",
+      "links": [],
+      "images": [
+        {
+          "file": "images/film-school-simulator-01.jpg",
+          "caption": "Alpha 3 menu",
+          "width": 1152,
+          "height": 648
+        }
+      ],
+      "tags": [
+        "Personal work",
+        "Project Manager",
+        "VR",
+        "Game"
+      ]
+    },
+    {
+      "slug": "interactive-museum",
+      "title": "Interactive Museum",
+      "year": "2018",
+      "client": "Personal",
+      "with": "Solo",
+      "type": "VR installation controlling live gallery displays",
+      "role": "Creator",
+      "context": "Unity integrated with web systems",
+      "description": "A VR installation that controls live gallery displays, integrating Unity with web systems.",
+      "links": [],
+      "images": [
+        {
+          "file": "images/interactive-museum-01.jpg",
+          "caption": "Installation in use",
+          "width": 545,
+          "height": 319
+        }
+      ],
+      "tags": [
+        "Personal work",
+        "VR",
+        "Installation"
+      ]
+    }
+  ]
+}
