@@ -26,7 +26,7 @@ Plain HTML and CSS. Nothing to install and no framework.
 
 To add a tag, type it in a project's `tags` list. A new tag gets its own page automatically. `tag_order` at the top of the file sets the order tags are listed in.
 
-To show a YouTube video in place of an image, use an entry like `{"youtube": "VIDEO_ID", "caption": "Project video", "aspect": "16/9"}` (`"9/16"` for Shorts). If a project's first item is a video, set `thumb` to an image for the hover preview.
+To show a YouTube video in place of an image, use an entry like `{"youtube": "VIDEO_ID", "caption": "Project video", "aspect": "16/9"}` (`"9/16"` for Shorts). If a project's first item is a video, set `thumb` to an image for the hover preview. To put a video directly under a project's description instead, add the same kind of entry as that project's `video` field.
 
 To add images to a project, put the file in `images/` and add an entry to that project's `images` list with its `file`, `caption`, `width` and `height`.
 

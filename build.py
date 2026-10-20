@@ -175,6 +175,7 @@ def project_page(i, p):
   </header>
   {cover}
   <p class="lead">{e(p['description'])}</p>
+  {figure(pre, p["video"]) if p.get("video") else ""}
   {links}
   <dl class="facts">{facts_html}</dl>
   <div class="tags"><span class="label">Tags</span><ul>{tag_links}</ul></div>

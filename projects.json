@@ -323,7 +323,12 @@
         "Personal work",
         "360° film",
         "Documentary"
-      ]
+      ],
+      "video": {
+        "youtube": "147twf1QyMg",
+        "caption": "The film",
+        "aspect": "16/9"
+      }
     },
     {
       "slug": "len1",
