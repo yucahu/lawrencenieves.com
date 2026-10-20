@@ -1,8 +1,14 @@
 // Small conveniences. Every page works without this file.
 (function () {
-  // Keep the current project in view in the index.
+  // Keep the current project in view in the index. Only scroll the index itself,
+  // and only when it is its own scrolling panel (tall desktop screens). Never
+  // scroll the page: on phones the index sits below the project.
+  var index = document.querySelector('.index');
   var current = document.querySelector('.index-list [aria-current="page"]');
-  if (current && current.scrollIntoView) current.scrollIntoView({ block: 'nearest' });
+  if (index && current && index.scrollHeight > index.clientHeight + 1) {
+    var offset = current.getBoundingClientRect().top - index.getBoundingClientRect().top;
+    if (offset > index.clientHeight - 60) index.scrollTop += offset - index.clientHeight / 2;
+  }
 
   // Left and right arrow keys move between projects.
   document.addEventListener('keydown', function (e) {
