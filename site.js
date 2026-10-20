@@ -47,6 +47,8 @@
       fig.hidden = false;
     } else {
       fig.hidden = true;
+      img.removeAttribute('src');
+      cap.textContent = '';
     }
     name.textContent = a.querySelector('.t').textContent;
     meta.textContent = d.meta || '';

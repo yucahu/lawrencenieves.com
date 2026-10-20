@@ -19,6 +19,8 @@
 }
 
 *, *::before, *::after { box-sizing: border-box; }
+/* Anything the script hides stays hidden, even when a rule gives it a display (e.g. figure { display: grid }). */
+[hidden] { display: none !important; }
 
 html { background: var(--white); -webkit-text-size-adjust: 100%; }
 body {
