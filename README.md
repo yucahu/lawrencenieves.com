@@ -15,6 +15,7 @@ Plain HTML and CSS. Nothing to install and no framework.
 | `style.css` | All styles, using the Kudzu colours and type. |
 | `site.js` | Optional extras: the hover preview, ← → keys between projects, and keeping the current project in view in the list. |
 | `images/` | Project images. `-01` is each project's cover. |
+| `images/portrait.svg` | The line drawing on the home page. To change its colour, edit `fill="#e0b652"` near the start of the file. |
 | `og-image.png` | The card shown when someone shares a link to the site on LinkedIn, Slack or in a text. Project pages use their cover image instead. |
 | `lawrence-nieves-resume.pdf`, `lawrence-nieves-portfolio.pdf` | The PDFs linked from the home page and the top of every page. To update one, replace the file and keep the name. |
 

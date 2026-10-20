@@ -72,17 +72,39 @@ a:hover { color: var(--kudzu); }
 html.home, html.home body { background: var(--kudzu); }
 html.home { height: 100%; }
 .home body {
+  --home-bottom: clamp(24px, 4vh, 40px);
   min-height: 100%;
   color: var(--white);
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: clamp(24px, 3vw, 56px);
+  align-items: start;
   padding-left: max(var(--gutter), env(safe-area-inset-left, 0px));
   padding-right: max(var(--gutter), env(safe-area-inset-right, 0px));
-  padding-block: clamp(40px, 12vh, 128px) clamp(24px, 4vh, 40px);
+  padding-block: clamp(40px, 12vh, 128px) var(--home-bottom);
+}
+
+/* The line drawing: honey gold, the one warm note on the kudzu field.
+   Desktop: right of the text, running off the bottom edge. Phone: above the text. */
+.portrait {
+  align-self: end;
+  width: clamp(200px, 24vw, 400px);
+  height: auto;
+  margin-bottom: calc(-1 * var(--home-bottom));
+}
+@media (max-width: 820px) {
+  .home body { grid-template-columns: minmax(0, 1fr); }
+  .portrait {
+    order: -1;
+    align-self: start;
+    width: min(46vw, 190px);
+    margin: 0 0 28px -8px;
+  }
 }
 .home :focus-visible { outline-color: var(--white); outline-offset: 3px; }
 
 .intro {
+  grid-area: auto; /* undo the work pages' main { grid-area: main } */
   padding: 0;
   display: grid;
   gap: 0.85em;
