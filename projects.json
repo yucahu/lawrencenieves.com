@@ -230,13 +230,14 @@
       "client": "Delta",
       "with": "Foundry 45",
       "type": "Interactive VR modules for aircraft marshalling safety",
-      "role": "Feature development",
+      "role": "Project Manager, Feature development",
       "context": "New features and night mode",
       "description": "Interactive VR modules that train aircraft marshalling safety for Delta. I enhanced the experience with new features, including a night mode.",
       "links": [],
       "images": [],
       "tags": [
         "Professional work",
+        "Project Manager",
         "VR",
         "Training"
       ]
@@ -248,7 +249,7 @@
       "client": "Boys & Girls Clubs",
       "with": "Foundry 45",
       "type": "VR kits, distributed nationwide",
-      "role": "Analytics and distribution",
+      "role": "Project Manager, Analytics and distribution",
       "context": "200+ VR kits distributed nationwide",
       "description": "Road Code put VR kits into Boys & Girls Clubs of America nationwide. I oversaw backend analytics and the distribution of more than 200 kits.",
       "links": [],
@@ -375,8 +376,13 @@
       "type": "Google Cardboard interactive film experience",
       "role": "Led a team of 30+ students",
       "context": "Google Cardboard",
-      "description": "A Google Cardboard interactive film experience funded by an Emerson College film organization, where I led a team of more than 30 students.",
-      "links": [],
+      "description": "A Google Cardboard interactive film experience funded by an Emerson College film organization, where I led a team of more than 30 students. While the project couldn’t be completed because of the pandemic, a playable demo is currently hosted on itch.io.",
+      "links": [
+        {
+          "label": "Play the demo on itch.io",
+          "url": "https://alecsciandra.itch.io/film-school-simulator"
+        }
+      ],
       "images": [
         {
           "file": "images/film-school-simulator-01.jpg",
