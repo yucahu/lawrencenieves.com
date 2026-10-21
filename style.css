@@ -76,7 +76,7 @@ html.home { height: 100%; }
   min-height: 100%;
   color: var(--white);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
   column-gap: clamp(24px, 3vw, 56px);
   align-items: start;
   padding-left: max(var(--gutter), env(safe-area-inset-left, 0px));
@@ -84,8 +84,9 @@ html.home { height: 100%; }
   padding-block: clamp(40px, 12vh, 128px) var(--home-bottom);
 }
 
-/* The line drawing: honey gold, the one warm note on the kudzu field.
+/* Optional portrait drawing (none on the site right now). Add <img class="portrait" ...> after </main> in index.html.
    Desktop: right of the text, running off the bottom edge. Phone: above the text. */
+.home body:has(> .portrait) { grid-template-columns: minmax(0, 1fr) auto; }
 .portrait {
   align-self: end;
   width: clamp(200px, 24vw, 400px);
@@ -93,7 +94,7 @@ html.home { height: 100%; }
   margin-bottom: calc(-1 * var(--home-bottom));
 }
 @media (max-width: 820px) {
-  .home body { grid-template-columns: minmax(0, 1fr); }
+  .home body, .home body:has(> .portrait) { grid-template-columns: minmax(0, 1fr); }
   .portrait {
     order: -1;
     align-self: start;
